@@ -41,7 +41,7 @@ class DBStorage:
             Base.metadata.drop_all(self.__engine)
 
     def get(self, cls, id):
-        """Returns object base on class and id"""
+        """Return object base on class and id"""
         cls = classes[cls] if cls in classes else cls
         try:
             return self.__session.query(cls).filter_by(id=id).first()
