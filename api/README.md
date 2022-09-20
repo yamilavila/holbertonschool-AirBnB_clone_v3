@@ -1,5 +1,5 @@
 
-4. Status of your API
+# 4. Status of your API
 
 It’s time to start your API!
 
